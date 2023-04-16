@@ -1,16 +1,22 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../components/Home.vue";
-import First from "../components/FirstPage.vue";
+import ProductList from "../views/ProductList.vue";
+import ProductDetail from "../views/ProductDetail.vue";
+import ProductCreate from "../views/ProductCreate.vue";
 const routes = [
   {
     path: "/",
     name: "move to HomePage",
-    component: Home,
+    component: ProductList,
   },
   {
-    path: "/first",
-    name: "move to FirstPage",
-    component: First,
+    path: "/detail",
+    name: "move to detail",
+    component: ProductDetail,
+  },
+  {
+    path: "/create",
+    name: "move to create",
+    component: ProductCreate,
   },
 ];
 

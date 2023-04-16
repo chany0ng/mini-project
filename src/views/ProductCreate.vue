@@ -1,12 +1,10 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-  </div>
+  <h1>This is ProductCreate page.</h1>
 </template>
 
 <script>
 export default {
-  name: "home-page",
+  name: "create-page",
   components: {},
   data() {
     return {

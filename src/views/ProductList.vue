@@ -1,8 +1,11 @@
-<template>first page입니다.</template>
+<template>
+  <h1>This is ProductList page.</h1>
+  <div class="btn btn-outline-primary">button</div>
+</template>
 
 <script>
 export default {
-  name: "first-page",
+  name: "list-page",
   components: {},
   data() {
     return {

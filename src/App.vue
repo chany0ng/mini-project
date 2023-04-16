@@ -1,15 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/first">First</router-link>
-  </nav>
-  <router-view></router-view>
+  <div>
+    <Header />
+    <router-view>zz</router-view>
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Header from "./layouts/Header.vue";
+import Footer from "./layouts/Footer.vue";
 export default {
   name: "App",
-  components: {},
+  components: { Header, Footer },
+  computed: {
+    user() {
+      return this.$store.state.user;
+    },
+  },
 };
 </script>
 
