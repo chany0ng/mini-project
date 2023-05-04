@@ -1,11 +1,12 @@
-// Vuex Store 관련 파일을 저장하는 폴더
-import { createStore } from "vuex";
+// // Vuex Store 관련 파일을 저장하는 폴더
+// import { createStore } from "vuex";
 
-const store = createStore({
-  state() {},
-  mutation() {},
-  actions() {},
-  getters() {},
-});
+// const store = createStore({
+//   state() {},
+//   mutation() {},
+//   actions() {},
+//   getters() {},
+// });
 
-export default store;
+// // export default store;
+// import {defineStore} from 'pinia';
